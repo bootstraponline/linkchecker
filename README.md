@@ -38,3 +38,7 @@ make localbuild
 #### Example usage
 
 > nohup ./linkchecker -q -F html/utf8/checked.html -r -1 --check-extern http://example.com/ >/dev/null 2>&1 &
+
+#### Subdomains
+
+[internlinks](http://wummel.github.io/linkchecker/man5/linkcheckerrc.5.html) is available only via config file. The command line doesn't support it.
